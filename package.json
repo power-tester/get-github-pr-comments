@@ -18,8 +18,16 @@
     "pull-request",
     "comments"
   ],
-  "author": "",
+  "author": "power-tester",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/power-tester/get-github-pr-comments.git"
+  },
+  "homepage": "https://github.com/power-tester/get-github-pr-comments#readme",
+  "bugs": {
+    "url": "https://github.com/power-tester/get-github-pr-comments/issues"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4"
   },
