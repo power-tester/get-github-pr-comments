@@ -1,0 +1,30 @@
+{
+  "name": "get-github-pr-comments",
+  "version": "1.0.0",
+  "description": "MCP server for fetching GitHub PR review comments",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "get-github-pr-comments": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "github",
+    "pull-request",
+    "comments"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  }
+}
