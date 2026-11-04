@@ -30,11 +30,11 @@ export function formatComments(
 function formatSummaryComments(comments: PRComment[]): string {
   return comments
     .map((comment) => {
-      const firstLine = comment.body.split("\\n")[0];
+      const firstLine = comment.body.split("\n")[0];
       const lineInfo = comment.line ? `:${comment.line}` : "";
       return `${comment.path}${lineInfo} - ${firstLine}`;
     })
-    .join("\\n");
+    .join("\n");
 }
 
 /**
@@ -51,5 +51,5 @@ Comment:
 ${comment.body}
 ${"=".repeat(80)}`;
     })
-    .join("\\n\\n");
+    .join("\n\n");
 }
