@@ -1,6 +1,6 @@
 {
   "name": "get-github-pr-comments",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for fetching GitHub PR review comments",
   "type": "module",
   "main": "build/index.js",

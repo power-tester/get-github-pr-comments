@@ -35,7 +35,7 @@ export class GitHubPRCommentsServer {
     this.server = new McpServer(
       {
         name: "get-github-pr-comments",
-        version: "1.0.0",
+        version: "1.0.1",
       },
       {
         capabilities: {
